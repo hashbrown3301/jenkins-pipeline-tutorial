@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('Static Analysis') {
             steps {
+                echo 'hi my name is daniel davis'
                 echo 'Run the static analysis to the code' 
             }
         }
